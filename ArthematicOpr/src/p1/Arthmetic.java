@@ -1,6 +1,6 @@
 package p1;
 
-public class Arthmetic implements Addition,Division{
+public class Arthmetic implements Addition,Division, Multiplication{
 	@Override
 	public int getAdd(int a, int b) {
 		return a + b;
